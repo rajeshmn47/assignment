@@ -85,3 +85,18 @@ align-items: center;
 color: #0D53FC;
 font-size: 18px;
 }
+
+.bottombar{
+    padding: 1vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bottomleft{
+width: 70%;
+background-color: #F2F5F9;
+}
+.bottomright{
+    width: 25%;
+    background-color: #F2F5F9;
+}

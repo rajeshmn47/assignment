@@ -34,7 +34,17 @@ export const Rightbar=()=>{
     <h5>Patient's List</h5>
     <h4 style={{color:'#A8B2BA',display:'flex',alignItems:'center'}}><ArrowForwardIosIcon/>    Diane Cooper</h4>
 </div>
-      </div>  </div>
+
+      </div>  
+      
+   <div className='bottombar'>
+       <div className='bottomleft'>
+           </div>
+       <div className='bottomright'>
+
+       </div>
+       </div>   
+      </div>
         
         </>
     )

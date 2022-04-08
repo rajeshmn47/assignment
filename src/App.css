@@ -17,9 +17,9 @@ html,body{
 .maindiv{
   width: 90vw;
   height: 80vh;
-  border: 10px solid #30406C;
+  border: 6px solid #30406C;
   display: flex;
-  border-radius: 15px;
+  border-radius: 25px;
   overflow: hidden;
 }
 

@@ -51,6 +51,6 @@ padding: 1vmax;
 .plus{
     background-color: #0D53FC;
     color: #FFFFFF;
-    padding: 1vh 1vw;
-    border-radius: 15px;
+    padding: 1vh 1.5vh;
+    border-radius: 50%;
 }

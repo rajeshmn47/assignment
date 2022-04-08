@@ -196,3 +196,28 @@ justify-content: space-between;
     font-size: 14px;
     margin: 1vh 1vw;
 }
+
+.box{
+    display:flex;
+    border: 2px solid #EFF1F7;
+    height: 5vh;
+    align-items: center;
+    width: 85%;
+}
+
+.smallbox{
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFF1F7;
+    width: 35%;
+   white-space: nowrap;
+}
+.selbox{
+    color: #0D53FC;
+   width: 30%;
+   background-color: #FFFFFF;
+}

@@ -91,6 +91,9 @@ export const Rightbar=({patient})=>{
 </div>
            </div>
            <div className='bottomlefttwo'>
+<div className='box'><div className='smallbox selbox'>Upcoming Appointments</div> 
+<div className='smallbox'> Past Appointments</div>
+<div className='smallbox'>Medical Records</div></div>
 
            </div>
            </div>

@@ -1,6 +1,7 @@
 import './rightbar.css'
 import PersonOutlineOutlinedIcon from '@material-ui/icons/PersonOutlineOutlined';
 import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
+import NotificationsIcon from '@material-ui/icons/Notifications';
 
 export const Rightbar=()=>{
     return(
@@ -19,9 +20,12 @@ export const Rightbar=()=>{
 <div className='plus'>
 +
 </div>
-</div>
-<div>
+<div className='notify'>
+    <div className='reddot'>
 
+    </div>
+<NotificationsIcon/>
+</div>
 </div>
 </div>
         </div>

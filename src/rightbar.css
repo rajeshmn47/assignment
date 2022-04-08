@@ -35,7 +35,7 @@ align-items: center;
 .righttop{
     display: flex;
     justify-content: space-evenly;
-    width: 20vw;
+    width: 25vw;
     align-items: center;
 }
 .search{
@@ -52,5 +52,21 @@ padding: 1vmax;
     background-color: #0D53FC;
     color: #FFFFFF;
     padding: 1vh 1.5vh;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.notify{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 1vh 1.5vh ;
+    position: relative;
+    box-sizing: border-box;
+}
+.reddot{
+    position: absolute;
+    top: 15%;
+    right: 20%;
+    background-color: red;
+    padding: 0.6vh 0.5vh;
     border-radius: 50%;
 }

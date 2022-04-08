@@ -114,8 +114,8 @@ export const Rightbar=({patient})=>{
 </div>
 
 </div>
-<h5>Lorem ipsum dolor sit amet</h5>
-<div style={{display:'flex',justifyContent:'space-between',padding:'0.5vmax',alignItems:'center'}}>
+<h5 style={{marginTop:'10px'}}>Lorem ipsum dolor sit amet</h5>
+<div style={{display:'flex',justifyContent:'space-between',padding:'0vmax 0.5vmax',alignItems:'center'}}>
 <h5 style={{color:'#303D4E',display:'flex',alignItems:'center'}}>
     <PersonOutlineOutlinedIcon style={{color:'#1F60FB'}}/>Drag Mega Nanade</h5>
 <h5 style={{color:'#0D53FC'}}>20 Nov 19</h5>

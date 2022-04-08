@@ -178,8 +178,9 @@ justify-content: space-between;
 
 }
 .rightonesmall{
-    width: 10vw;
+    width: 11vw;
     margin-top: 5vh 0vw;
+white-space: nowrap;
 }
 
 .bottomrighttwo{
@@ -249,4 +250,6 @@ justify-content: space-between;
 .ext h5{
     margin-bottom: 2vh;
     color: #3A4657;
+    white-space: nowrap;
+    overflow: hidden;
 }

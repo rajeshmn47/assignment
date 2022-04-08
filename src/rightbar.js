@@ -43,13 +43,21 @@ export const Rightbar=()=>{
 <div className='leftone'>
 <img src='' alt='' width='40'/>
 <h1 style={{color:'#303D4E',fontSize:'18px'}}>Diane cooper</h1>
+<h5 style={{color:'#A8B2BA'}}>dianecooper@example.com</h5>
+<div style={{display:'flex',width:'100%',justifyContent:'space-evenly'}}>
+<div style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}}>
+15
+<h5 style={{color:'#A8B2BA'}}>Post</h5></div>  
+<div style={{display:'flex',flexDirection:'column',borderLeft:'2px solid #A8B2BA',alignItems:'center',justifyContent:'center'}}> 
+2<h5 style={{color:'#A8B2BA'}}>Upcoming</h5></div></div>
+<button className='sndmsg'>Send Message</button>
 </div>
 <div className='rightone'>
 
 </div>
            </div>
            <div className='bottomlefttwo'>
-
+rajiya
            </div>
            </div>
        <div className='bottomright'>

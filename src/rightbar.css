@@ -95,15 +95,18 @@ font-size: 18px;
 .bottomleft{
 width: 70%;
 background-color: #F2F5F9;
+height: 100%;
 }
 .bottomright{
     width: 25%;
     background-color: #F2F5F9;
+    height: 100%;
 }
 .bottomleftone{
     height: 45%;
     width: 100%;
     border-radius: 10px;
+    display: flex;
 }
 .bottomlefttwo{
     height: 45%;
@@ -111,14 +114,33 @@ background-color: #F2F5F9;
     width: 100%;
     border-radius: 10px;
     padding: 1vmax;
+  
 }
 .leftone{
     background-color: #FFFFFF;
     padding: 1vmax;
     width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .rightone{
     background-color: #FFFFFF;
     padding: 1vmax;
     width: 65%;
+    height: 100%;
+}
+.sndmsg{
+    background-color: #FFFFFF;
+    outline: none;
+    width: 100%;
+    border: none;
+    border: 1px solid #EDEFF2;
+    border-radius: 5px;
+    padding: 1vh 1vw;
+}
+
+.rightone{
+    background-color: red;
 }

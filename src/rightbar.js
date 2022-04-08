@@ -30,7 +30,7 @@ export const Rightbar=()=>{
 </div>
 </div>
 <div className='belowtopbar'>
-    <div style={{display:'flex',alignItems:'center'}}>
+    <div style={{display:'flex',alignItems:'center',width:'30%'}}>
     <h5>Patient's List</h5>
     <h4 style={{color:'#A8B2BA',display:'flex',alignItems:'center'}}><ArrowForwardIosIcon/>    Diane Cooper</h4>
 </div>

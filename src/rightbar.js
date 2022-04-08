@@ -40,7 +40,10 @@ export const Rightbar=()=>{
    <div className='bottombar'>
        <div className='bottomleft'>
            <div className='bottomleftone'>
-<div className='leftone'></div>
+<div className='leftone'>
+<img src='' alt='' width='40'/>
+<h1 style={{color:'#303D4E',fontSize:'18px'}}>Diane cooper</h1>
+</div>
 <div className='rightone'>
 
 </div>

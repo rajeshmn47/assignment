@@ -53,14 +53,45 @@ export const Rightbar=({patient})=>{
     </div> 
 <div style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'space-between'}}> 
 {patient&&patient.Upcoming}<h5 style={{color:'#A8B2BA',textAlign:'center'}}>Upcoming</h5></div></div>
-<button className='sndmsg'>Send Message</button>
+<button className='sndmsg'><h5>Send Message</h5></button>
 </div>
 <div className='rightone'>
-
+    <div className='rightonesmall'>
+<h3>Gender</h3>
+<h5>{patient&&patient.Gender}</h5>
+</div>
+<div className='rightonesmall'>
+<h3>Birthday</h3>
+<h5>{patient&&patient.Birthday}</h5>
+</div>
+<div className='rightonesmall'>
+<h3>Phone Number</h3>
+<h5>(239)555-0108</h5>
+</div>
+<div className='rightonesmall'>
+<h3>Street Address</h3>
+<h5>JL.Diponegaro No.21</h5>
+</div>
+<div className='rightonesmall'>
+<h3>City</h3>
+<h5>Cilacap</h5>
+</div>
+<div className='rightonesmall'>
+<h3>ZIP Code</h3>
+<h5>657348</h5>
+</div>
+<div className='rightonesmall'>
+<h3>Member Status</h3>
+<h5>Active Member</h5>
+</div>
+<div className='rightonesmall'>
+<h3>Registered Date</h3>
+<h5>Feb 24th ,1997</h5>
+</div>
 </div>
            </div>
            <div className='bottomlefttwo'>
-rajiya
+
            </div>
            </div>
        <div className='bottomright'>

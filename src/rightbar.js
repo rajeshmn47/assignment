@@ -48,9 +48,11 @@ export const Rightbar=({patient})=>{
 <div style={{display:'flex',width:'100%',justifyContent:'space-evenly'}}>
 <div style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}}>
 {patient&&patient.Past}
-<h5 style={{color:'#A8B2BA'}}>Past</h5></div>  
-<div style={{display:'flex',flexDirection:'column',borderLeft:'2px solid #A8B2BA',alignItems:'center',justifyContent:'center'}}> 
-{patient&&patient.Upcoming}<h5 style={{color:'#A8B2BA'}}>Upcoming</h5></div></div>
+<h5 style={{color:'#A8B2BA'}}>Past</h5></div> 
+<div style={{backgroundColor:'#A8B2BA',width:'3px'}}>
+    </div> 
+<div style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'space-between'}}> 
+{patient&&patient.Upcoming}<h5 style={{color:'#A8B2BA',textAlign:'center'}}>Upcoming</h5></div></div>
 <button className='sndmsg'>Send Message</button>
 </div>
 <div className='rightone'>
@@ -66,7 +68,7 @@ rajiya
 
            </div>
            <div className='bottomrighttwo'>
-               
+
            </div>
        </div>
        </div>   

@@ -16,31 +16,31 @@ export const Maindiv=()=>{
 <h2>Zendentha</h2>
 <p>cabut digu transpa</p>
 </div>
-<SettingsOutlinedIcon style={{color:'grey',opacity:'0.9',size:'12px'}}/>
+<SettingsOutlinedIcon style={{color:'#C1C7CD',opacity:'0.9',height:'12px'}}/>
         </div>
         <div>
 <div className='item'> 
-    <HelpOutlineOutlinedIcon style={{color:'grey',opacity:'0.9'}}/>
+    <HelpOutlineOutlinedIcon style={{color:'#C1C7CD',opacity:'0.9',height:'12px'}}/>
 <h2>Overview </h2>
     </div>
     <div className='item'>
-        <EventNoteOutlinedIcon style={{color:'grey',opacity:'0.9'}}/>
+        <EventNoteOutlinedIcon style={{color:'#C1C7CD',opacity:'0.9',height:'12px'}}/>
 <h2>Calender</h2>
     </div>
     <div className='item select'>
-        <PersonOutlineOutlinedIcon />
+        <PersonOutlineOutlinedIcon style={{color:'#C1C7CD',opacity:'0.9',height:'12px'}} />
 <h2>Patient List</h2>
     </div>
     <div className='item'>
-        <ChatRoundedIcon  style={{color:'grey',opacity:'0.9'}}/>
+        <ChatRoundedIcon  style={{color:'#C1C7CD',opacity:'0.9',height:'12px'}}/>
 <h2>Messages</h2>
     </div>
     <div className='item'>
-        <LocalAtmRoundedIcon  style={{color:'grey',opacity:'0.9'}}/>
+        <LocalAtmRoundedIcon  style={{color:'#C1C7CD',opacity:'0.9',height:'12px'}}/>
 <h2>Payment Information</h2>
     </div>
     <div className='item'>
-        <SettingsOutlinedIcon  style={{color:'grey',opacity:'0.9'}}/>
+        <SettingsOutlinedIcon  style={{color:'#C1C7CD',opacity:'0.9',height:'12px'}}/>
 <h2>Settings</h2>
     </div>
     </div>

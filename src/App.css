@@ -12,7 +12,7 @@
   height: 70vh;
   border: 5px solid #30406C;
   display: flex;
-  border-radius: 15px;
+  border-radius: 20px;
   overflow: hidden;
 }
 
@@ -20,9 +20,16 @@
 background-color: #FBFBFC;
 width: 15%;
 overflow: hidden;
+color: #263446;
 }
 .rightbar{
 background-color: #F2F5F9;
 width: 85%;
 overflow: hidden;
+}
+
+.select{
+  background-color: #0D53FC;
+  color: #FFFFFF;
+  
 }

@@ -10,6 +10,13 @@ export const Maindiv=()=>{
         <>
 <div className='maindiv'>
     <div className="sidebar">
+        <div className='topsid'>
+            <div>
+<h2>Zendentha</h2>
+<p>cabut digu transpa</p>
+</div>
+<SettingsOutlinedIcon/>
+        </div>
         <div>
 <div className='item'> 
     <HelpOutlineOutlinedIcon/>

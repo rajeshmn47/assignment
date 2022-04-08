@@ -16,7 +16,7 @@ html,body{
 
 .maindiv{
   width: 90vw;
-  height: 70vh;
+  height: 80vh;
   border: 5px solid #30406C;
   display: flex;
   border-radius: 20px;
@@ -52,4 +52,19 @@ padding: 2vmax;
   margin-left: 2vw;
   font-weight: 800;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.topsid h2{
+  font-size: 18px;
+  color: #303D4E;
+}
+.topsid{
+  display: flex;
+  padding: 1vmax;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.topsid p{
+  font-size: 12px;
+  color: grey;
 }

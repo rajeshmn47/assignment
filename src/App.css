@@ -12,14 +12,17 @@
   height: 70vh;
   border: 5px solid #30406C;
   display: flex;
-  border-radius: 20px;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .sidebar{
 background-color: #FBFBFC;
 width: 15%;
+overflow: hidden;
 }
 .rightbar{
 background-color: #F2F5F9;
 width: 85%;
+overflow: hidden;
 }

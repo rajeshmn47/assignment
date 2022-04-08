@@ -39,6 +39,15 @@ export const Rightbar=()=>{
       
    <div className='bottombar'>
        <div className='bottomleft'>
+           <div className='bottomleftone'>
+<div className='leftone'></div>
+<div className='rightone'>
+
+</div>
+           </div>
+           <div className='bottomlefttwo'>
+
+           </div>
            </div>
        <div className='bottomright'>
 

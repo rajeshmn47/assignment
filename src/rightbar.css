@@ -100,3 +100,25 @@ background-color: #F2F5F9;
     width: 25%;
     background-color: #F2F5F9;
 }
+.bottomleftone{
+    height: 45%;
+    width: 100%;
+    border-radius: 10px;
+}
+.bottomlefttwo{
+    height: 45%;
+    background-color: #FFFFFF;
+    width: 100%;
+    border-radius: 10px;
+    padding: 1vmax;
+}
+.leftone{
+    background-color: #FFFFFF;
+    padding: 1vmax;
+    width: 30%;
+}
+.rightone{
+    background-color: #FFFFFF;
+    padding: 1vmax;
+    width: 30%;
+}

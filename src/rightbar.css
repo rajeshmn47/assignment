@@ -179,6 +179,7 @@ justify-content: space-between;
 }
 .rightonesmall{
     width: 10vw;
+    margin-top: 5vh 0vw;
 }
 
 .bottomrighttwo{
@@ -194,7 +195,7 @@ justify-content: space-between;
 .rightonesmall h5{
     color: #7B828D;
     font-size: 14px;
-    margin: 1vh 1vw;
+    margin: 0vh 1vw;
 }
 
 .box{

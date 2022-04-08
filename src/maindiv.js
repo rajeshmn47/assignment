@@ -15,16 +15,16 @@ export const Maindiv=()=>{
         <EventNoteOutlinedIcon/>
 <h2>Calender</h2>
     </div>
-    <div className='select'>
+    <div className='item select'>
 <h2>Patient List</h2>
     </div>
-    <div>
+    <div className='item'>
 <h2>Messages</h2>
     </div>
-    <div>
+    <div className='item'>
 <h2>Payment Information</h2>
     </div>
-    <div>
+    <div className='item'>
 <h2>Overview</h2>
     </div>
     </div>

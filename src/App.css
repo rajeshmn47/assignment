@@ -31,5 +31,8 @@ overflow: hidden;
 .select{
   background-color: #0D53FC;
   color: #FFFFFF;
-  
+
+}
+.item{
+  display: flex;
 }

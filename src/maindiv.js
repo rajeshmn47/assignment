@@ -6,7 +6,7 @@ import LocalAtmRoundedIcon from '@material-ui/icons/LocalAtmRounded';
 import SettingsOutlinedIcon from '@material-ui/icons/SettingsOutlined';
 import Rightbar from './rightbar'
 
-export const Maindiv=()=>{
+export const Maindiv=({patient })=>{
     return(
         <>
 <div className='maindiv'>
@@ -48,7 +48,7 @@ export const Maindiv=()=>{
 
     </div>
     </div>
-   <Rightbar/>
+   <Rightbar patient={patient}/>
 </div>
 
         </>

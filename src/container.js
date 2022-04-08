@@ -1,10 +1,10 @@
 import Maindiv from "./maindiv"
 
-export const Container=()=>{
+export const Container=({patient})=>{
     return(
         <>
         <div className='container'>
-<Maindiv/>
+<Maindiv patient={patient}/>
         </div>
         
         </>

@@ -16,7 +16,7 @@ export const Maindiv=()=>{
 <h2>Zendentha</h2>
 <p>cabut digu transpa</p>
 </div>
-<SettingsOutlinedIcon style={{color:'grey',opacity:'0.9'}}/>
+<SettingsOutlinedIcon style={{color:'grey',opacity:'0.9',size:'12px'}}/>
         </div>
         <div>
 <div className='item'> 

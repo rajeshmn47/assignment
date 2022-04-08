@@ -19,7 +19,7 @@ html,body{
   height: 80vh;
   border: 10px solid #30406C;
   display: flex;
-  border-radius: 16px;
+  border-radius: 15px;
   overflow: hidden;
 }
 

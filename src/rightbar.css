@@ -28,6 +28,7 @@ align-items: center;
 }
 
 .searchinput{
+    margin-left: 1vw;
     border: none;
     outline: none;
     background-color: #F2F5F9;

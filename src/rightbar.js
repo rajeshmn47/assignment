@@ -99,7 +99,27 @@ export const Rightbar=({patient})=>{
            </div>
        <div className='bottomright'>
            <div className='bottomrightone'>
+               <div style={{display:'flex',justifyContent:'space-between',padding:'1vmax'}}>
+<h5 style={{color:'#303D4E'}}>Notes</h5>
+<h5 style={{color:'#0D53FC'}}>See all</h5>
+</div>
+<div className='rightextreme'>
+    <div className='ext'>
+<h5>- This patient is lorem ipsum dolor sit amet</h5>
+<h5>- Lorem ipsum dolor sit amet</h5>
+<h5>- has alergic history with Cataflam</h5>
+</div>
+<div>
+    <button className='savenote'>save note</button>
+</div>
 
+</div>
+<h5>Lorem ipsum dolor sit amet</h5>
+<div style={{display:'flex',justifyContent:'space-between',padding:'0.5vmax',alignItems:'center'}}>
+<h5 style={{color:'#303D4E',display:'flex',alignItems:'center'}}>
+    <PersonOutlineOutlinedIcon style={{color:'#1F60FB'}}/>Drag Mega Nanade</h5>
+<h5 style={{color:'#0D53FC'}}>20 Nov 19</h5>
+</div>
            </div>
            <div className='bottomrighttwo'>
 

@@ -1,3 +1,10 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html,body{
+  font-family: sans-serif;
+}
 .container{
   height: 100vh;
   width: 100vw;
@@ -8,7 +15,7 @@
 }
 
 .maindiv{
-  width: 80vw;
+  width: 90vw;
   height: 70vh;
   border: 5px solid #30406C;
   display: flex;
@@ -27,12 +34,20 @@ background-color: #F2F5F9;
 width: 85%;
 overflow: hidden;
 }
-
+.item{
+  display: flex;
+  color: #293749;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1vh 1vw;
+  margin: 1vh 0vw;
+  box-sizing: border-box;
+}
 .select{
   background-color: #0D53FC;
   color: #FFFFFF;
-
 }
-.item{
-  display: flex;
+.item h2{
+  font-size: 14px;
+
 }

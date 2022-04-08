@@ -7,11 +7,11 @@ export const Maindiv=()=>{
 <div className='maindiv'>
     <div className="sidebar">
         <div>
-<div> 
+<div className='item'> 
     <HelpOutlineOutlinedIcon/>
 <h2>Overview </h2>
     </div>
-    <div>
+    <div className='item'>
         <EventNoteOutlinedIcon/>
 <h2>Calender</h2>
     </div>

@@ -1,5 +1,9 @@
 import HelpOutlineOutlinedIcon from '@material-ui/icons/HelpOutlineOutlined';
 import EventNoteOutlinedIcon from '@material-ui/icons/EventNoteOutlined';
+import PersonOutlineOutlinedIcon from '@material-ui/icons/PersonOutlineOutlined';
+import ChatRoundedIcon from '@material-ui/icons/ChatRounded';
+import LocalAtmRoundedIcon from '@material-ui/icons/LocalAtmRounded';
+import SettingsOutlinedIcon from '@material-ui/icons/SettingsOutlined';
 
 export const Maindiv=()=>{
     return(
@@ -16,16 +20,20 @@ export const Maindiv=()=>{
 <h2>Calender</h2>
     </div>
     <div className='item select'>
+        <PersonOutlineOutlinedIcon/>
 <h2>Patient List</h2>
     </div>
     <div className='item'>
+        <ChatRoundedIcon/>
 <h2>Messages</h2>
     </div>
     <div className='item'>
+        <LocalAtmRoundedIcon/>
 <h2>Payment Information</h2>
     </div>
     <div className='item'>
-<h2>Overview</h2>
+        <SettingsOutlinedIcon/>
+<h2>Settings</h2>
     </div>
     </div>
     <div>

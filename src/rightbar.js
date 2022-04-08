@@ -2,6 +2,7 @@ import './rightbar.css'
 import PersonOutlineOutlinedIcon from '@material-ui/icons/PersonOutlineOutlined';
 import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 import NotificationsIcon from '@material-ui/icons/Notifications';
+import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 
 export const Rightbar=()=>{
     return(
@@ -28,7 +29,12 @@ export const Rightbar=()=>{
 </div>
 </div>
 </div>
-        </div>
+<div className='belowtopbar'>
+    <div style={{display:'flex',alignItems:'center'}}>
+    <h5>Patient's List</h5>
+    <h4 style={{color:'#A8B2BA',display:'flex',alignItems:'center'}}><ArrowForwardIosIcon/>    Diane Cooper</h4>
+</div>
+      </div>  </div>
         
         </>
     )

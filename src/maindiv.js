@@ -4,6 +4,7 @@ import PersonOutlineOutlinedIcon from '@material-ui/icons/PersonOutlineOutlined'
 import ChatRoundedIcon from '@material-ui/icons/ChatRounded';
 import LocalAtmRoundedIcon from '@material-ui/icons/LocalAtmRounded';
 import SettingsOutlinedIcon from '@material-ui/icons/SettingsOutlined';
+import Rightbar from './rightbar'
 
 export const Maindiv=()=>{
     return(
@@ -47,9 +48,7 @@ export const Maindiv=()=>{
 
     </div>
     </div>
-    <div className="rightbar">
-
-    </div>
+   <Rightbar/>
 </div>
 
         </>

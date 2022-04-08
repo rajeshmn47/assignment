@@ -29,12 +29,7 @@ width: 15%;
 overflow: hidden;
 color: #263446;
 }
-.rightbar{
-background-color: #F2F5F9;
-width: 85%;
-overflow: hidden;
-padding: 2vmax;
-}
+
 .item{
   display: flex;
   color: #293749;

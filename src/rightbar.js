@@ -47,7 +47,7 @@ export const Rightbar=({patient})=>{
        <div className='bottomleft'>
            <div className='bottomleftone'>
 <div className='leftone'>
-<img src='https://cdn.fakercloud.com/avatars/vladyn_128.jpg' alt='' width='40'/>
+<img src='https://images.networthlist.org/images/32/anne-hathaway.jpg' alt=''height='50' width='45' className='mainimg'/>
 <h1 style={{color:'#303D4E',fontSize:'18px'}}>{patient&&patient.name}</h1>
 <h5 style={{color:'#A8B2BA'}}>dionecooper@example.com</h5>
 <div style={{display:'flex',width:'100%',justifyContent:'space-evenly'}}>

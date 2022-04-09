@@ -341,3 +341,7 @@ margin-top: 1px;
     display: flex;
     align-items: center;
 }
+
+.mainimg{
+    border-radius: 50%;
+}

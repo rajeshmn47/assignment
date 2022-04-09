@@ -54,7 +54,7 @@ export const Rightbar=({patient})=>{
 <div style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}}>
 {patient&&patient.Past}
 <h5 style={{color:'#A8B2BA'}}>Past</h5></div> 
-<div style={{backgroundColor:'#A8B2BA',width:'3px'}}>
+<div style={{backgroundColor:'#A8B2BA',width:'1px'}}>
     </div> 
 <div style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'space-between'}}> 
 {patient&&patient.Upcoming}<h5 style={{color:'#A8B2BA',textAlign:'center'}}>Upcoming</h5></div></div>
@@ -151,6 +151,22 @@ Previous Treatment</h5>
 
         </div>
         <div className='appointment'>
+        <div className='app'>
+    <h5 style={{fontSize:'14px'}}>12 Dec '19</h5>
+    <h5 style={{fontSize:'10px',color:'#B5BBC2'}}>09:00-10:00</h5>
+</div>
+
+<div className='app'>
+<h5 style={{fontSize:'10px',color:'#B5BBC2'}}>Treatment</h5>
+<h5>Root Canal prep</h5>
+</div>
+<div className='bar'></div>
+<div className='app'> <h5 style={{fontSize:'10px',color:'#B5BBC2'}}>Dentist</h5>
+<h5>Drag Adam H</h5></div>
+<div className='app'> <h5 style={{fontSize:'10px',color:'#B5BBC2'}}>Nurse</h5>
+<h5>Jessicamila</h5></div>
+<div className='app last'> <NoteAddOutlinedIcon style={{fontSize:'10px',marginRight:'5px'}}/>
+<h5>Note</h5></div>
 
 </div>
     

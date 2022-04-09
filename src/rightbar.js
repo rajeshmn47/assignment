@@ -107,6 +107,7 @@ export const Rightbar=({patient})=>{
 
          
 <div className='appointmentscontainer'>
+    {tab==='appointments'?<>
 <div className='topbarappointment'>
 <div style={{display:'flex',justifyContent:'space-between',padding:'1vmax',alignItems:'center'}}>
 <h5 style={{color:'#303D4E'}}>Root Canal Treatment</h5>
@@ -177,7 +178,10 @@ Previous Treatment</h5>
     
 </div>
 </div>
+</>
+:<div style={{display:'flex',color:'#B5BBC2',fontWeight:'700',height:'100%',justifyContent:'center',alignItems:'center'}}>sorry nothing yet</div>}
 </div>
+
 </div>
            </div>
        <div className='bottomright'>

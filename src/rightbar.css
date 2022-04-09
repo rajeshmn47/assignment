@@ -160,7 +160,7 @@ justify-content: space-evenly;
     outline: none;
     width: 100%;
     border: none;
-    border: 1px solid #EDEFF2;
+    border: 2px solid #EDEFF2;
     border-radius: 5px;
     padding: 1vh 1vw;
     font-size: 16px;
@@ -344,4 +344,7 @@ margin-top: 1px;
 
 .mainimg{
     border-radius: 50%;
+}
+.smallbox{
+    cursor: pointer;
 }

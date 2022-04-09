@@ -6,8 +6,14 @@ import LocalAtmRoundedIcon from '@material-ui/icons/LocalAtmRounded';
 import SettingsOutlinedIcon from '@material-ui/icons/SettingsOutlined';
 import Rightbar from './rightbar'
 import ErrorOutlineOutlinedIcon from '@material-ui/icons/ErrorOutlineOutlined';
+import {useState,useEffect} from 'react'
 
 export const Maindiv=({patient })=>{
+    const [selected,setSelected]=useState('patientlist')
+
+const handleclick=(item)=>{
+setSelected(item)
+}
     return(
         <>
 <div className='maindiv'>
@@ -21,27 +27,27 @@ export const Maindiv=({patient })=>{
 <SettingsOutlinedIcon style={{color:'#C1C7CD',opacity:'0.9',height:'12px'}}/>
         </div>
         <div>
-<div className='item'> 
+<div className={selected==='overview'?'item select':'item'} onClick={()=>setSelected('overview')}> 
     <HelpOutlineOutlinedIcon style={{color:'#C1C7CD',opacity:'0.9',height:'12px'}}/>
 <h2>Overview </h2>
     </div>
-    <div className='item'>
+    <div className={selected==='calender'?'item select':'item'} onClick={()=>setSelected('calender')}>
         <EventNoteOutlinedIcon style={{color:'#C1C7CD',opacity:'0.9',height:'12px'}}/>
 <h2>Calender</h2>
     </div>
-    <div className='item select'>
+    <div className={selected==='patientlist'?'item select':'item'} onClick={()=>setSelected('patientlist')}>
         <PersonOutlineOutlinedIcon style={{color:'#C1C7CD',opacity:'0.9',height:'12px'}} />
 <h2>Patient List</h2>
     </div>
-    <div className='item'>
+    <div className={selected==='messages'?'item select':'item'} onClick={()=>setSelected('messages')}>
         <ChatRoundedIcon  style={{color:'#C1C7CD',opacity:'0.9',height:'12px'}}/>
 <h2>Messages</h2>
     </div>
-    <div className='item'>
+    <div className={selected==='payment'?'item select':'item'} onClick={()=>setSelected('payment')}>
         <LocalAtmRoundedIcon  style={{color:'#C1C7CD',opacity:'0.9',height:'12px'}}/>
 <h2>Payment Information</h2>
     </div>
-    <div className='item'>
+    <div className={selected==='settings'?'item select':'item'} onClick={()=>setSelected('settings')}>
         <SettingsOutlinedIcon  style={{color:'#C1C7CD',opacity:'0.9',height:'12px'}}/>
 <h2>Settings</h2>
     </div>
@@ -64,7 +70,7 @@ export const Maindiv=({patient })=>{
     </div>
     </div>
     </div>
-   <Rightbar patient={patient}/>
+   {selected==='patientlist'?<Rightbar patient={patient}/>:null}
 </div>
 
         </>

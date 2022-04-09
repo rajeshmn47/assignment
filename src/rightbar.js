@@ -95,13 +95,23 @@ export const Rightbar=({patient})=>{
 <div className='smallbox'> Past Appointments</div>
 <div className='smallbox'>Medical Records</div></div>
 
-           </div>
+         
+<div className='appointmentscontainer'>
+<div className='topbarappointment'>
+<div style={{display:'flex',justifyContent:'space-between',padding:'1vmax',alignItems:'center'}}>
+<h5 style={{color:'#303D4E'}}>Root Canal Treatment</h5>
+<h5 style={{color:'#7B828D',backgroundColor:'#FFFFFF',height:'vh',padding:'10px',fontSize:'12px'}}>Show 
+Previous Treatment</h5>
+</div>
+</div>
+</div>
+</div>
            </div>
        <div className='bottomright'>
            <div className='bottomrightone'>
                <div style={{display:'flex',justifyContent:'space-between',padding:'1vmax'}}>
 <h5 style={{color:'#303D4E'}}>Notes</h5>
-<h5 style={{color:'#0D53FC'}}>See all</h5>
+<h5 style={{color:'#0D53FC',}}>See All</h5>
 </div>
 <div className='rightextreme'>
     <div className='ext'>
@@ -114,11 +124,11 @@ export const Rightbar=({patient})=>{
 </div>
 
 </div>
-<h5 style={{marginTop:'10px'}}>Lorem ipsum dolor sit amet</h5>
+<h5 style={{marginTop:'10px',color:'#3A4657'}}>Lorem ipsum dolor sit amet</h5>
 <div style={{display:'flex',justifyContent:'space-between',padding:'0vmax 0.5vmax',alignItems:'center'}}>
-<h5 style={{color:'#9EA8AF',display:'flex',alignItems:'center',fontSize:'10xpx'}}>
-    <PersonOutlineOutlinedIcon style={{color:'#1F60FB',fontSize:'10px'}}/>Drag Mega Nanade</h5>
-<h5 style={{color:'#9EA8AF;',fontSize:'8px'}}>20 Nov 19</h5>
+<h5 style={{color:'#9EA8AF',display:'flex',alignItems:'center',fontSize:'10px'}}>
+    <PersonOutlineOutlinedIcon style={{color:'#1F60FB',fontSize:'12px'}}/>Drag Mega Nanade</h5>
+<h5 style={{color:'#9EA8AF',fontSize:'10px'}}>20 Nov 19</h5>
 </div>
            </div>
            <div className='bottomrighttwo'>

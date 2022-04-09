@@ -100,9 +100,10 @@ font-size: 18px;
 width: 70%;
 background-color: #F2F5F9;
 height: 100%;
+
 display: flex;
 flex-direction: column;
-justify-content: space-between;
+justify-content: space-evenly;
 }
 .bottomright{
     width: 25%;
@@ -124,11 +125,15 @@ justify-content: space-between;
 }
 .bottomlefttwo{
     height: 29vh;
+    margin-top: 4vh;
     background-color: #FFFFFF;
     width: 100%;
     border-radius: 5px;
     padding: 1vmax;
   width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 .leftone{
     background-color: #FFFFFF;
@@ -179,7 +184,7 @@ justify-content: space-between;
 }
 .rightonesmall{
     width: 11vw;
-    margin-top: 5vh 0vw;
+    margin-top: 6vh 0vw;
 white-space: nowrap;
 }
 
@@ -252,4 +257,10 @@ white-space: nowrap;
     color: #3A4657;
     white-space: nowrap;
     overflow: hidden;
+}
+
+.appointmentscontainer{
+    background-color: #EFF1F7;
+    height: 22vh;
+    width: 100%;
 }

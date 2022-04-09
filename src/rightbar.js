@@ -8,8 +8,10 @@ import PictureAsPdfOutlinedIcon from '@material-ui/icons/PictureAsPdfOutlined';
 import DeleteOutlineOutlinedIcon from '@material-ui/icons/DeleteOutlineOutlined';
 import AddCircleOutlineOutlinedIcon from '@material-ui/icons/AddCircleOutlineOutlined';
 import NoteAddOutlinedIcon from '@material-ui/icons/NoteAddOutlined';
+import {useState} from 'react'
 
 export const Rightbar=({patient})=>{
+    const [tab,setTab]=useState()
     console.log(patient)
     return(
         <>
@@ -98,9 +100,10 @@ export const Rightbar=({patient})=>{
 </div>
            </div>
            <div className='bottomlefttwo'>
-<div className='box'><div className='smallbox selbox'>Upcoming Appointments</div> 
-<div className='smallbox'> Past Appointments</div>
-<div className='smallbox'>Medical Records</div></div>
+<div className='box'>
+    <div className='smallbox selbox' onClick={()=>setTab('appointments')}>Upcoming Appointments</div> 
+<div className='smallbox' onClick={()=>setTab('past')}> Past Appointments</div>
+<div className='smallbox' onClick={()=>setTab('records')}>Medical Records</div></div>
 
          
 <div className='appointmentscontainer'>

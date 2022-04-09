@@ -29,6 +29,9 @@ background-color: #FBFBFC;
 width: 15%;
 overflow: hidden;
 color: #263446;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 
 .item{

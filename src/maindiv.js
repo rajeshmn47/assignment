@@ -5,12 +5,14 @@ import ChatRoundedIcon from '@material-ui/icons/ChatRounded';
 import LocalAtmRoundedIcon from '@material-ui/icons/LocalAtmRounded';
 import SettingsOutlinedIcon from '@material-ui/icons/SettingsOutlined';
 import Rightbar from './rightbar'
+import ErrorOutlineOutlinedIcon from '@material-ui/icons/ErrorOutlineOutlined';
 
 export const Maindiv=({patient })=>{
     return(
         <>
 <div className='maindiv'>
     <div className="sidebar">
+        <div>
         <div className='topsid'>
             <div>
 <h2>Zendentha</h2>
@@ -44,8 +46,21 @@ export const Maindiv=({patient })=>{
 <h2>Settings</h2>
     </div>
     </div>
+   
+   
+    </div>
     <div>
-
+    <div>
+        <h5 style={{color:'#B5BBC2',padding:'1vmax',display:'flex',alignItems:'center',width:'100%',justifyContent:'flex-start'}}>
+             <ErrorOutlineOutlinedIcon style={{fontSize:'14px',marginRight:'1vw'}}/> Help ?</h5>
+   </div>     
+    <div style={{borderTop:'#cccccc',height:'15vh',width:'100%',display:'flex',alignItems:'center',justifyContent:'space-evenly'}}>
+        <img src='https://t3.ftcdn.net/jpg/02/60/04/08/360_F_260040863_fYxB1SnrzgJ9AOkcTOhoe7IEFtsPiHAD.jpg' alt='' width='20' style={{borderRadius:'50%'}}/>
+        <div>
+            <h5> Drg.Adam H.</h5>
+            <h5 style={{color:'#B5BBC2',marginTop:'5px'}}>Dentist</h5>
+        </div>
+    </div>
     </div>
     </div>
    <Rightbar patient={patient}/>

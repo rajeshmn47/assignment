@@ -84,7 +84,7 @@ overflow: hidden;
 }
 .belowtopbar h5{
 color: #0D53FC;
-font-size: 18px;
+font-size: 16px;
 }
 
 .bottombar{
@@ -267,7 +267,7 @@ white-space: nowrap;
 }
 .appointment{
     width: 45vw;
-    height: 6vh;
+    height: 5.5vh;
     background-color: #FFFFFF;
     margin-bottom: 7px;
 }

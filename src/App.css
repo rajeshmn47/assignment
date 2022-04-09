@@ -43,6 +43,9 @@ color: #263446;
   background-color: #0D53FC;
   color: #FFFFFF;
 }
+body::-webkit-scrollbar{
+  width:10px;
+}
 .item h2{
   font-size: 14px;
   margin-left: 2vw;

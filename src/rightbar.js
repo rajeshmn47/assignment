@@ -195,9 +195,10 @@ Previous Treatment</h5>
 
 </div>
 <h5 style={{marginTop:'10px',color:'#3A4657'}}>Lorem ipsum dolor sit amet</h5>
-<div style={{display:'flex',justifyContent:'space-between',padding:'0vmax 0.5vmax',alignItems:'center'}}>
+<div style={{display:'flex',justifyContent:'space-between',padding:'0vmax 0.5vmax',alignItems:'center',
+marginTop:'5px'}}>
 <h5 style={{color:'#9EA8AF',display:'flex',alignItems:'center',fontSize:'10px'}}>
-    <PersonOutlineOutlinedIcon style={{color:'#1F60FB',fontSize:'12px'}}/>Drag Mega Nanade</h5>
+    <PersonOutlineOutlinedIcon style={{color:'#1F60FB',fontSize:'12px',marginRight:'5px'}}/>Drag Mega Nanade</h5>
 <h5 style={{color:'#9EA8AF',fontSize:'10px'}}>20 Nov 19</h5>
 </div>
            </div>

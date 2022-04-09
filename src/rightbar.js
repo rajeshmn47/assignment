@@ -11,7 +11,7 @@ import NoteAddOutlinedIcon from '@material-ui/icons/NoteAddOutlined';
 import {useState} from 'react'
 
 export const Rightbar=({patient})=>{
-    const [tab,setTab]=useState()
+    const [tab,setTab]=useState('appointments')
     console.log(patient)
     return(
         <>
@@ -101,9 +101,9 @@ export const Rightbar=({patient})=>{
            </div>
            <div className='bottomlefttwo'>
 <div className='box'>
-    <div className='smallbox selbox' onClick={()=>setTab('appointments')}>Upcoming Appointments</div> 
-<div className='smallbox' onClick={()=>setTab('past')}> Past Appointments</div>
-<div className='smallbox' onClick={()=>setTab('records')}>Medical Records</div></div>
+    <div className={tab==='appointments'?'smallbox selbox':'smallbox'} onClick={()=>setTab('appointments')}>Upcoming Appointments</div> 
+<div className={tab==='past'?'smallbox selbox':'smallbox'} onClick={()=>setTab('past')}> Past Appointments</div>
+<div className={tab==='records'?'smallbox selbox':'smallbox'} onClick={()=>setTab('records')}>Medical Records</div></div>
 
          
 <div className='appointmentscontainer'>

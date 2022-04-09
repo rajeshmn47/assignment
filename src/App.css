@@ -44,7 +44,7 @@ color: #263446;
   color: #FFFFFF;
 }
 body::-webkit-scrollbar{
-  width:10px;
+  width:40px;
 }
 .item h2{
   font-size: 14px;

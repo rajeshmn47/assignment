@@ -3,6 +3,7 @@ import PersonOutlineOutlinedIcon from '@material-ui/icons/PersonOutlineOutlined'
 import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
+import FileCopyOutlinedIcon from '@material-ui/icons/FileCopyOutlined';
 
 export const Rightbar=({patient})=>{
     console.log(patient)
@@ -163,7 +164,10 @@ Previous Treatment</h5>
 </div>
            </div>
            <div className='bottomrighttwo'>
-
+           <div style={{display:'flex',justifyContent:'space-between',padding:'1vmax',alignItems:'center'}}>
+<h5 style={{color:'#303D4E'}}>Files / Documents</h5>
+<h5 style={{color:'#0D53FC',display:'flex',alignItems:'center'}}><FileCopyOutlinedIcon/>Add Files</h5>
+</div>
            </div>
        </div>
        </div>   

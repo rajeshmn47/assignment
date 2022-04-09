@@ -277,7 +277,7 @@ white-space: nowrap;
     align-items: flex-start;
     flex-direction: row;
     height: 12vh;
-   
+   padding:0vmax 1vmax;
 }
 .appointmentlist{
     display: flex;
@@ -309,4 +309,20 @@ white-space: nowrap;
     align-items: center;
     justify-content: center;
     padding-left: 5px;
+}
+
+::-webkit-scrollbar{
+width:5px;
+margin-right: 10px;
+border-radius: 5px;
+margin-top: 1px;
+}
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:#555;
 }

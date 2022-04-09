@@ -4,6 +4,10 @@ import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import FileCopyOutlinedIcon from '@material-ui/icons/FileCopyOutlined';
+import PictureAsPdfOutlinedIcon from '@material-ui/icons/PictureAsPdfOutlined';
+import DeleteOutlineOutlinedIcon from '@material-ui/icons/DeleteOutlineOutlined';
+import AddCircleOutlineOutlinedIcon from '@material-ui/icons/AddCircleOutlineOutlined';
+import NoteAddOutlinedIcon from '@material-ui/icons/NoteAddOutlined';
 
 export const Rightbar=({patient})=>{
     console.log(patient)
@@ -128,6 +132,22 @@ Previous Treatment</h5>
  
     <div className='appointmentlist'>
         <div className='appointment'>
+<div className='app'>
+    <h5 style={{fontSize:'14px'}}>26 Nov '19</h5>
+    <h5 style={{fontSize:'10px',color:'#B5BBC2'}}>09:00-10:00</h5>
+</div>
+
+<div className='app'>
+<h5 style={{fontSize:'10px',color:'#B5BBC2'}}>Treatment</h5>
+<h5>Open Access</h5>
+</div>
+<div className='bar'></div>
+<div className='app'> <h5 style={{fontSize:'10px',color:'#B5BBC2'}}>Dentist</h5>
+<h5>Drag Adam H</h5></div>
+<div className='app'> <h5 style={{fontSize:'10px',color:'#B5BBC2'}}>Nurse</h5>
+<h5>Jessicamila</h5></div>
+<div className='app last'> <NoteAddOutlinedIcon style={{fontSize:'10px',marginRight:'5px'}}/>
+<h5>Note</h5></div>
 
         </div>
         <div className='appointment'>
@@ -164,10 +184,31 @@ Previous Treatment</h5>
 </div>
            </div>
            <div className='bottomrighttwo'>
-           <div style={{display:'flex',justifyContent:'space-between',padding:'1vmax',alignItems:'center'}}>
-<h5 style={{color:'#303D4E'}}>Files / Documents</h5>
-<h5 style={{color:'#0D53FC',display:'flex',alignItems:'center'}}><FileCopyOutlinedIcon/>Add Files</h5>
+           <div style={{display:'flex',justifyContent:'space-between',padding:' 0.7vmax 1vmax',alignItems:'center',fontSize:'14px'}}>
+<h5 style={{color:'#303D4E',display:'flex',alignItems:'center'}}>Files / Documents</h5>
+<h5 style={{color:'#0D53FC',display:'flex',alignItems:'center',fontSize:'12px'}}><FileCopyOutlinedIcon style={{fontSize:'12px'}} /> Add Files</h5>
 </div>
+           <div style={{display:'flex',justifyContent:'space-between',padding:'0.7vmax 1vmax',alignItems:'center',fontSize:'14px'}}>
+<h5 style={{color:'#303D4E',display:'flex',alignItems:'center'}}><PictureAsPdfOutlinedIcon style={{fontSize:'12px'}}/>  Check Up Result.pdf</h5>
+<h5 style={{color:'#0D53FC',display:'flex',alignItems:'center',fontSize:'10px'}}>123kb</h5>
+</div>
+<div style={{display:'flex',justifyContent:'space-between',padding:'0.7vmax 1vmax',alignItems:'center',fontSize:'14px'}}>
+<h5 style={{color:'#303D4E',display:'flex',alignItems:'center'}}><PictureAsPdfOutlinedIcon style={{fontSize:'12px'}}/>  Dental X Ray Result2.pdf</h5>
+<h5 style={{color:'#0D53FC',display:'flex',alignItems:'center',fontSize:'10px'}}><DeleteOutlineOutlinedIcon style={{fontSize:'10px'}}/>
+<AddCircleOutlineOutlinedIcon style={{fontSize:'10px'}}/>
+</h5>
+</div>
+<div style={{display:'flex',justifyContent:'space-between',padding:'0.7vmax 1vmax',alignItems:'center',fontSize:'14px'}}>
+<h5 style={{color:'#303D4E',display:'flex',alignItems:'center'}}><PictureAsPdfOutlinedIcon style={{fontSize:'12px'}}/>  Medical Prescriptions.pdf</h5>
+<h5 style={{color:'#0D53FC',display:'flex',alignItems:'center',fontSize:'10px'}}>87kb</h5>
+</div>
+<div style={{display:'flex',justifyContent:'space-between',padding:'0.7vmax 1vmax',alignItems:'center',fontSize:'14px'}}>
+<h5 style={{color:'#303D4E',display:'flex',alignItems:'center',whiteSpace:'nowrap',}}><PictureAsPdfOutlinedIcon style={{fontSize:'12px'}}/>Dental X-Ray Result.pdf</h5>
+<h5 style={{color:'#0D53FC',display:'flex',alignItems:'center',fontSize:'5px'}}><DeleteOutlineOutlinedIcon style={{fontSize:'10px'}}/>
+<AddCircleOutlineOutlinedIcon style={{fontSize:'10px'}}/>
+</h5>
+</div>
+
            </div>
        </div>
        </div>   

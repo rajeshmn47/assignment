@@ -179,7 +179,8 @@ Previous Treatment</h5>
 </div>
 </div>
 </>
-:<div style={{display:'flex',flexDirection:'row',width:'80vw',color:'#B5BBC2',fontWeight:'700',height:'100%',justifyContent:'center',alignItems:'center'}}>sorry nothing to show yet</div>}
+:<div style={{display:'flex',flexDirection:'row',color:'#B5BBC2',fontWeight:'700',height:'100%',justifyContent:'center',alignItems:'center'}}>
+    sorry nothing to show yet</div>}
 </div>
 
 </div>

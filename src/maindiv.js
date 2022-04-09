@@ -70,7 +70,7 @@ setSelected(item)
     </div>
     </div>
     </div>
-   {selected==='patientlist'?<Rightbar patient={patient}/>:<div style={{display:'flex',color:'#B5BBC2',fontWeight:'700',height:'100%',justifyContent:'center',alignItems:'center'}}>sorry nothing to show yet</div>}
+   {selected==='patientlist'?<Rightbar patient={patient}/>:<div style={{display:'flex',color:'#B5BBC2',fontWeight:'700',height:'100%',justifyContent:'center',alignItems:'center',width:'100%'}}>sorry nothing to show yet</div>}
 </div>
 
         </>

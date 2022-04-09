@@ -54,12 +54,12 @@ export const Rightbar=({patient})=>{
 <h5 style={{color:'#A8B2BA'}}>dionecooper@example.com</h5>
 <div style={{display:'flex',width:'100%',justifyContent:'space-evenly'}}>
 <div style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}}>
-{patient&&patient.Past}
+<h5>{patient&&patient.Past}</h5>
 <h5 style={{color:'#A8B2BA'}}>Past</h5></div> 
 <div style={{backgroundColor:'#A8B2BA',width:'1px'}}>
     </div> 
 <div style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'space-between'}}> 
-{patient&&patient.Upcoming}<h5 style={{color:'#A8B2BA',textAlign:'center'}}>Upcoming</h5></div></div>
+<h5>{patient&&patient.Upcoming}</h5><h5 style={{color:'#A8B2BA',textAlign:'center'}}>Upcoming</h5></div></div>
 <button className='sndmsg'><h5>Send Message</h5></button>
 </div>
 <div className='rightone'>

@@ -21,7 +21,7 @@ html,body{
   display: flex;
   border-radius: 25px;
   overflow: hidden;
-  box-shadow: 3px 3px 3px 3px #cecfd4;
+  box-shadow: 2px 2px 2px 2px #cecfd4;
 }
 
 .sidebar{

@@ -54,8 +54,9 @@ export const Maindiv=({patient })=>{
         <h5 style={{color:'#B5BBC2',padding:'1vmax',display:'flex',alignItems:'center',width:'100%',justifyContent:'flex-start'}}>
              <ErrorOutlineOutlinedIcon style={{fontSize:'14px',marginRight:'1vw'}}/> Help ?</h5>
    </div>     
-    <div style={{borderTop:'#cccccc',height:'15vh',width:'100%',display:'flex',alignItems:'center',justifyContent:'space-evenly'}}>
-        <img src='https://t3.ftcdn.net/jpg/02/60/04/08/360_F_260040863_fYxB1SnrzgJ9AOkcTOhoe7IEFtsPiHAD.jpg' alt='' width='20' style={{borderRadius:'50%'}}/>
+    <div style={{borderTop:'#cccccc',padding:'1vmax',height:'15vh',width:'100%',display:'flex',alignItems:'center',justifyContent:'flex-start'}}>
+        <img src='https://t3.ftcdn.net/jpg/02/60/04/08/360_F_260040863_fYxB1SnrzgJ9AOkcTOhoe7IEFtsPiHAD.jpg' 
+        alt='' width='30' height='35' style={{borderRadius:'50%',marginRight:'8px'}}/>
         <div>
             <h5> Drg.Adam H.</h5>
             <h5 style={{color:'#B5BBC2',marginTop:'5px'}}>Dentist</h5>

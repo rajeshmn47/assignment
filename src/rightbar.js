@@ -38,7 +38,9 @@ export const Rightbar=({patient})=>{
 <div className='belowtopbar'>
     <div style={{display:'flex',alignItems:'center',width:'30%'}}>
     <h5>Patient's List</h5>
-    <h4 style={{color:'#A8B2BA',display:'flex',alignItems:'center',fontSize:'16px'}}><ArrowForwardIosIcon/>{patient&&patient.name}</h4>
+    <h4 style={{color:'#A8B2BA',display:'flex',alignItems:'center',fontSize:'16px'}}>
+        <ArrowForwardIosIcon style={{fontSize:'15px',margin:'0vh 1vw'}}/>
+    {patient&&patient.name}</h4>
 </div>
 
       </div>  

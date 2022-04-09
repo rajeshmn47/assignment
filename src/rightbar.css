@@ -264,3 +264,47 @@ white-space: nowrap;
     height: 22vh;
     width: 100%;
 }
+.appointment{
+    width: 45vw;
+    height: 6vh;
+    background-color: #FFFFFF;
+}
+.bottombarappointment{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    height: 15vh;
+    overflow-y: scroll;
+    scroll-behavior: unset;
+}
+.appointmentlist{
+    display: flex;
+    width: auto;
+    height: 20vh;
+    box-sizing: border-box;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow: hidden;
+    justify-content: space-evenly;
+    align-items: center;
+overflow: -moz-hidden-unscrollable;
+}
+.linecircle{
+    background-color: #FFFFFF;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #3460bb;
+    border-radius: 50%;
+}
+.line{
+    background-color: #3460bb;
+    width: 2px;
+    height: 5vh;
+}
+.linecir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

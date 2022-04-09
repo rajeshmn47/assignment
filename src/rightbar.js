@@ -111,19 +111,27 @@ Previous Treatment</h5>
 
 </div>
 <div className='line'></div>
+    
+    
+        <div className='line'></div>
 <div className='linecircle'>
 
 </div>
-<div className='line'>
+<div className='line'></div>
+<div className='line'></div>
+<div className='linecircle'>
+
+</div>
+<div className='line'></div>
     </div>
-    </div>
+ 
     <div className='appointmentlist'>
         <div className='appointment'>
 
         </div>
         <div className='appointment'>
-            
-            </div>
+
+</div>
     
 </div>
 </div>
